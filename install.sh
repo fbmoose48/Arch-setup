@@ -18,4 +18,4 @@ makepkg -si
 # AUR Software
 yay -Syu
 
-yay -S --needed downgrade pamac-aur inxi tor-browser teamviewer wireshark-git -yy
+yay -S --needed downgrade pamac-aur inxi tor-browser teamviewer wireshark-git cli-visualizer -yy
