@@ -4,7 +4,7 @@
 sudo pacman -Syu
 
 sudo pacman -S --needed base-devel hwloc openssl cmake libmicrohttpd net-tools htop git nmap neofetch os-prober \
-networkmanager openssh-server sshfs openvpn networkmanager-openvpn jdk-openjdk nano grub-customizer \
+networkmanager openssh sshfs openvpn networkmanager-openvpn jdk-openjdk nano grub-customizer \
 terminator transmission reflector flashplugin-installer lame audacity mpv vlc cmus gthumb soundconverter solaar \
 gparted gnome-tweaks gnome-tweak-tool dconf-editor xarchiver geany numactl msr-tools timeshift \
 virtualbox virtualbox-host-dkms virtualbox-guest-iso virtualbox-ext-pack android-tools \
