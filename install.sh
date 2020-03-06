@@ -3,12 +3,15 @@
 # Initial Software
 sudo pacman -Syu
 
-sudo pacman -S --needed base-devel hwloc openssl cmake libmicrohttpd net-tools htop git nmap neofetch os-prober \
-networkmanager openssh sshfs openvpn networkmanager-openvpn jdk-openjdk nano grub-customizer \
-terminator transmission reflector flashplugin-installer lame audacity mpv vlc cmus gthumb soundconverter solaar \
-gparted gnome-tweaks gnome-tweak-tool dconf-editor xarchiver geany numactl msr-tools timeshift \
-virtualbox virtualbox-host-dkms virtualbox-guest-iso virtualbox-ext-pack android-tools \
-chrome-gnome-shell chromium-browser tor nextcloud-client -yy
+sudo pacman -S --needed networkmanager openssh sshfs openvpn networkmanager-openvpn net-tools git nmap \ #connectivity
+nano htop grub-customizer terminator neofetch reflector os-prober solaar android-tools \ #tools
+base-devel hwloc openssl cmake libmicrohttpd numactl msr-tools \ #crypto/compile
+chromium-browser tor jdk-openjdk transmission flashplugin-installer lame vlc soundconverter \ #web/media
+gparted gnome-tweaks gnome-tweak-tool dconf-editor xarchiver geany chrome-gnome-shell \ #gnome tools
+virtualbox virtualbox-host-dkms nextcloud-client -yy
+
+# Other tools
+sudo pacman -S audacity mpv vlc cmus gthumb timeshift virtualbox-guest-iso virtualbox-ext-pack tcpdump hdparm -yy
 
 # Install Yay
 git clone https://aur.archlinux.org/yay.git
