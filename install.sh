@@ -23,3 +23,6 @@ makepkg -si
 yay -Syu
 
 yay -S --needed downgrade pamac-aur inxi tor-browser teamviewer wireshark-git cli-visualizer -yy
+
+# Fix Gnome Minimize/Maximize buttons
+gsettings set org.gnome.desktop.wm.preferences button-layout ':minimize,maximize,close'
