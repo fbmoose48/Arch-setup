@@ -3,16 +3,20 @@
 # Initial Software
 sudo pacman -Syu
 
-sudo pacman -S --needed networkmanager openssh sshfs openvpn networkmanager-openvpn net-tools git nmap \ 
+sudo pacman -S --needed networkmanager dhclient openssh sshfs openvpn networkmanager-openvpn net-tools git nmap \ 
 nano htop grub-customizer terminator neofetch reflector os-prober solaar android-tools \ 
 base-devel hwloc openssl cmake libmicrohttpd numactl msr-tools \ 
-chromium-browser tor jdk-openjdk transmission flashplugin-installer lame vlc soundconverter \ 
+tor jdk-openjdk transmission-gtk flashplugin chromium lame vlc soundconverter \ 
 gparted gnome-tweaks gnome-tweak-tool dconf-editor xarchiver geany chrome-gnome-shell \ 
-virtualbox virtualbox-host-dkms nextcloud-client -yy
+nextcloud-client -yy
+
+# Fix DHCP on NetworkManager
+sudo echo "[main]" >> /etc/NetworkManager/conf.d/dhcp-client.conf
+sudo echo "dhcp=dhclient" >> /etc/NetworkManager/conf.d/dhcp-client.conf
 
 # Other tools
-sudo pacman -S audacity mpv cmus gthumb timeshift virtualbox-guest-iso virtualbox-ext-pack tcpdump \ 
-dosfstools mstools hdparm -yy #disk/fs tools
+sudo pacman -S audacity mpv cmus gthumb timeshift dosfstools mstools hdparm tcpdump \ 
+virtualbox virtualbox-host-dkms virtualbox-guest-iso virtualbox-ext-pack -yy
 
 # Install Yay
 git clone https://aur.archlinux.org/yay.git
