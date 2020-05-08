@@ -30,3 +30,8 @@ yay -S --needed downgrade pamac-aur inxi tor-browser teamviewer wireshark-git cl
 
 # Fix Gnome Minimize/Maximize buttons
 gsettings set org.gnome.desktop.wm.preferences button-layout ':minimize,maximize,close'
+
+#Enable fstrim
+sudo systemctl enable fstrim.timer
+sudo systemctl start fstrim.timer
+
