@@ -18,6 +18,9 @@ sudo echo "dhcp=dhclient" >> /etc/NetworkManager/conf.d/dhcp-client.conf
 sudo pacman -S audacity mpv cmus gthumb timeshift dosfstools mstools hdparm tcpdump \ 
 virtualbox virtualbox-host-dkms virtualbox-guest-iso virtualbox-ext-pack -yy
 
+# AMD video driver
+sudo pacman -S xf86-video-amdgpu
+
 # Install Yay
 git clone https://aur.archlinux.org/yay.git
 cd yay
