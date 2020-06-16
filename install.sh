@@ -31,6 +31,9 @@ yay -Syu
 
 yay -S --needed downgrade pamac-aur inxi tor-browser teamviewer wireshark-git cli-visualizer -yy
 
+# Disable GDM Auto-Suspend (Gnome) When no User is logged in
+sudo -u gdm dbus-launch gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-type 'nothing'
+
 # Fix Gnome Minimize/Maximize buttons
 gsettings set org.gnome.desktop.wm.preferences button-layout ':minimize,maximize,close'
 
