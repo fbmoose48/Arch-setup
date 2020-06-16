@@ -6,7 +6,7 @@ sudo pacman -Syu
 sudo pacman -S --needed networkmanager dhclient openssh sshfs openvpn networkmanager-openvpn net-tools git nmap \ 
 nano htop grub-customizer terminator neofetch reflector os-prober solaar android-tools \ 
 base-devel hwloc openssl cmake libmicrohttpd numactl msr-tools \ 
-tor jdk-openjdk transmission-gtk flashplugin chromium lame vlc soundconverter \ 
+tor jdk-openjdk transmission-gtk flashplugin chromium lame gthumb vlc audacity soundconverter \ 
 gparted gnome-tweaks gnome-tweak-tool dconf-editor xarchiver geany chrome-gnome-shell \ 
 nextcloud-client -yy
 
@@ -15,7 +15,7 @@ sudo echo "[main]" >> /etc/NetworkManager/conf.d/dhcp-client.conf
 sudo echo "dhcp=dhclient" >> /etc/NetworkManager/conf.d/dhcp-client.conf
 
 # Other tools
-sudo pacman -S audacity mpv cmus gthumb timeshift dosfstools mstools hdparm tcpdump \ 
+sudo pacman -S mpv cmus timeshift dosfstools mstools hdparm tcpdump \ 
 virtualbox virtualbox-host-dkms virtualbox-guest-iso virtualbox-ext-pack -yy
 
 # AMD video driver
@@ -29,7 +29,7 @@ makepkg -si
 # AUR Software
 yay -Syu
 
-yay -S --needed downgrade pamac-aur inxi tor-browser teamviewer wireshark-git cli-visualizer -yy
+yay -S --needed downgrade pamac-aur inxi tor-browser teamviewer wireshark-git cli-visualizer imagewriter -yy
 
 # Disable GDM Auto-Suspend (Gnome) When no User is logged in
 sudo -u gdm dbus-launch gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-type 'nothing'
