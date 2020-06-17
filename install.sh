@@ -1,22 +1,32 @@
 #!/bin/bash
 
-# Initial Software
+# Initial update
 sudo pacman -Syu
 
-sudo pacman -S --needed networkmanager dhclient openssh sshfs openvpn networkmanager-openvpn net-tools git nmap \ 
-nano htop grub-customizer terminator neofetch reflector os-prober solaar android-tools \ 
-base-devel hwloc openssl cmake libmicrohttpd numactl msr-tools \ 
-tor jdk-openjdk transmission-gtk flashplugin chromium lame gthumb vlc audacity soundconverter \ 
-gparted gnome-tweaks gnome-tweak-tool dconf-editor xarchiver geany chrome-gnome-shell \ 
-nextcloud-client -yy
+# Base system
+sudo pacman -S --needed networkmanager dhclient openssh sshfs openvpn networkmanager-openvpn net-tools git nmap nano htop grub-customizer terminator neofetch reflector os-prober solaar -y
+
+# Build tools
+sudo pacman -S --needed base-devel hwloc openssl cmake libmicrohttpd numactl msr-tools geany -y
+
+# Gnome tools
+sudo pacman -S --needed gparted gnome-tweaks gnome-tweak-tool dconf-editor xarchiver chrome-gnome-shell  -y
+
+# Web
+sudo pacman -S --needed tor jdk-openjdk transmission-gtk flashplugin chromium nextcloud-client -y
+
+# Media 
+sudo pacman --needed lame gthumb vlc audacity soundconverter  -y
+
+# Virtualization
+sudo pacman -S --needed virtualbox virtualbox-host-dkms virtualbox-guest-iso virtualbox-ext-pack -y
+
+# Other tools
+sudo pacman -S android-tools mpv cmus timeshift dosfstools mstools hdparm tcpdump -y
 
 # Fix DHCP on NetworkManager
 sudo echo "[main]" >> /etc/NetworkManager/conf.d/dhcp-client.conf
 sudo echo "dhcp=dhclient" >> /etc/NetworkManager/conf.d/dhcp-client.conf
-
-# Other tools
-sudo pacman -S mpv cmus timeshift dosfstools mstools hdparm tcpdump \ 
-virtualbox virtualbox-host-dkms virtualbox-guest-iso virtualbox-ext-pack -yy
 
 # AMD video driver
 sudo pacman -S xf86-video-amdgpu
