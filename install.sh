@@ -22,22 +22,22 @@ sudo pacman -S --needed tor jdk-openjdk transmission-gtk flashplugin chromium ne
 sudo pacman --needed lame gthumb vlc audacity soundconverter  -y
 
 # Virtualization
-sudo pacman -S --needed virtualbox virtualbox-host-dkms virtualbox-guest-iso virtualbox-ext-pack -y
+#sudo pacman -S --needed virtualbox virtualbox-host-dkms virtualbox-guest-iso virtualbox-ext-pack -y
 
 # Other tools
-sudo pacman -S android-tools mpv cmus timeshift dosfstools mstools hdparm tcpdump -y
+#sudo pacman -S android-tools mpv cmus timeshift dosfstools mstools hdparm tcpdump -y
 
 # Fix DHCP on NetworkManager
-sudo echo "[main]" >> /etc/NetworkManager/conf.d/dhcp-client.conf
-sudo echo "dhcp=dhclient" >> /etc/NetworkManager/conf.d/dhcp-client.conf
+#sudo echo "[main]" >> /etc/NetworkManager/conf.d/dhcp-client.conf
+#sudo echo "dhcp=dhclient" >> /etc/NetworkManager/conf.d/dhcp-client.conf
 
 # AMD video driver
-sudo pacman -S xf86-video-amdgpu
+#sudo pacman -S xf86-video-amdgpu
 
 # Install Yay
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si
+#git clone https://aur.archlinux.org/yay.git
+#cd yay
+#makepkg -si
 
 # AUR Software
 yay -Syu
