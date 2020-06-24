@@ -54,3 +54,5 @@ gsettings set org.gnome.desktop.wm.preferences button-layout ':minimize,maximize
 sudo systemctl enable fstrim.timer
 sudo systemctl start fstrim.timer
 
+# Poly Dark GRUB theme
+wget -O - https://github.com/shvchk/poly-dark/raw/master/install.sh | bash 
