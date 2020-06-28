@@ -19,7 +19,7 @@ sudo pacman -S --needed gnome-tweaks gnome-tweak-tool dconf-editor chrome-gnome-
 sudo pacman -S --needed tor jdk-openjdk transmission-gtk flashplugin chromium nextcloud-client -y
 
 # Media 
-sudo pacman --needed lame gthumb vlc cmus audacity soundconverter  -y
+sudo pacman -S --needed lame gthumb vlc cmus audacity soundconverter  -y
 
 # Virtualization
 #sudo pacman -S --needed virtualbox virtualbox-host-dkms virtualbox-guest-iso virtualbox-ext-pack -y
@@ -32,7 +32,7 @@ sudo pacman --needed lame gthumb vlc cmus audacity soundconverter  -y
 #sudo echo "dhcp=dhclient" >> /etc/NetworkManager/conf.d/dhcp-client.conf
 
 # AMD video driver
-#sudo pacman -S xf86-video-amdgpu
+sudo pacman -S --needed xf86-video-amdgpu
 
 # Install Yay
 #git clone https://aur.archlinux.org/yay.git
