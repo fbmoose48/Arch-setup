@@ -12,6 +12,9 @@ sudo pacman -S --needed networkmanager dhclient openssh sshfs openvpn networkman
 # Build tools
 sudo pacman -S --needed base-devel hwloc openssl cmake libmicrohttpd numactl msr-tools geany -y
 
+# Coreboot
+sudo pacman -S --needed python gcc-ada flex bison ncurses wget zlib acpica -y
+
 # Gnome tools
 sudo pacman -S --needed gnome-tweaks gnome-tweak-tool dconf-editor chrome-gnome-shell  -y
 
