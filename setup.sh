@@ -4,7 +4,7 @@
 sudo pacman -Syu
 
 # Base system
-sudo pacman -S --needed gparted git nano htop powertop grub-customizer terminator neofetch reflector os-prober solaar xarchiver -y
+sudo pacman -S --needed gparted git nano htop powertop grub-customizer terminator neofetch reflector os-prober solaar xarchiver nnn -y
 
 # Network
 sudo pacman -S --needed networkmanager dhclient openssh sshfs openvpn networkmanager-openvpn net-tools nmap -y
