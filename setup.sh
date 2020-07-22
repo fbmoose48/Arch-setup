@@ -45,7 +45,7 @@ sudo pacman -S --needed xf86-video-amdgpu
 # AUR Software
 yay -Syu
 
-yay -S --needed downgrade pamac-aur inxi tor-browser teamviewer wireshark-git cli-visualizer imagewriter tldr++ -y
+yay -S --needed downgrade pamac-aur inxi tor-browser teamviewer wireshark-git cli-visualizer firejail imagewriter tldr++ -y
 
 # Disable GDM Auto-Suspend (Gnome) When no User is logged in
 sudo -u gdm dbus-launch gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-type 'nothing'
