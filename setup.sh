@@ -45,7 +45,6 @@ sudo pacman -S --needed xf86-video-amdgpu
 # AUR Update
 yay -Syu
 
-
 # AUR Software
 yay -S --needed downgrade pamac-aur inxi tor-browser teamviewer wireshark-git cli-visualizer imagewriter tldr++ -y
 
