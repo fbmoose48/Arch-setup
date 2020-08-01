@@ -42,10 +42,15 @@ sudo pacman -S --needed xf86-video-amdgpu
 #cd yay
 #makepkg -si
 
-# AUR Software
+# AUR Update
 yay -Syu
 
+
+# AUR Software
 yay -S --needed downgrade pamac-aur inxi tor-browser teamviewer wireshark-git cli-visualizer imagewriter tldr++ -y
+
+# AUR Fonts
+yay -S --needed nerd-fonts-source-code-pro nerd-fonts-liberation-mono lexend-fonts-git -y
 
 # Disable GDM Auto-Suspend (Gnome) When no User is logged in
 sudo -u gdm dbus-launch gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-type 'nothing'
