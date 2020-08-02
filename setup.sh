@@ -6,6 +6,9 @@ sudo pacman -Syu
 # Base system
 sudo pacman -S --needed gparted git nano htop powertop grub-customizer terminator neofetch reflector os-prober solaar xarchiver nnn -y
 
+# Base WM
+sudo pacman -S --needed nitrogen gtk-chtheme picom
+
 # Network
 sudo pacman -S --needed networkmanager dhclient openssh sshfs openvpn networkmanager-openvpn net-tools nmap firejail -y
 
@@ -49,7 +52,7 @@ yay -Syu
 yay -S --needed downgrade pamac-aur inxi tor-browser teamviewer wireshark-git cli-visualizer imagewriter tldr++ -y
 
 # AUR Fonts
-yay -S --needed nerd-fonts-source-code-pro nerd-fonts-liberation-mono lexend-fonts-git -y
+yay -S --needed nerd-fonts-source-code-pro nerd-fonts-liberation-mono lexend-fonts-git libxft-bgra-git -y
 
 # Disable GDM Auto-Suspend (Gnome) When no User is logged in
 sudo -u gdm dbus-launch gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-type 'nothing'
