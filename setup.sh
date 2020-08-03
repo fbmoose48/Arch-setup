@@ -49,7 +49,7 @@ sudo pacman -S --needed xf86-video-amdgpu
 yay -Syu
 
 # AUR Software
-yay -S --needed downgrade pamac-aur inxi tor-browser teamviewer wireshark-git cli-visualizer imagewriter tldr++ -y
+yay -S --needed downgrade pamac-aur inxi tor-browser teamviewer wireshark-git cli-visualizer imagewriter tldr++ gotop -y
 
 # AUR Fonts
 yay -S --needed nerd-fonts-source-code-pro nerd-fonts-liberation-mono lexend-fonts-git libxft-bgra-git -y
