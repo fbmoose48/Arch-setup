@@ -4,10 +4,10 @@
 sudo pacman -Syu
 
 # Base system
-sudo pacman -S --needed gparted git nano htop powertop grub-customizer terminator neofetch reflector os-prober solaar xarchiver nnn -y
+sudo pacman -S --needed gparted git patch nano htop powertop grub-customizer terminator neofetch reflector os-prober solaar xarchiver nnn -y
 
 # Base WM
-sudo pacman -S --needed nitrogen gtk-chtheme picom
+sudo pacman -S --needed nitrogen gtk-chtheme picom -y
 
 # Network
 sudo pacman -S --needed networkmanager dhclient openssh sshfs openvpn networkmanager-openvpn net-tools nmap firejail -y
@@ -25,7 +25,7 @@ sudo pacman -S --needed gnome-tweaks gnome-tweak-tool dconf-editor chrome-gnome-
 sudo pacman -S --needed tor jdk-openjdk transmission-gtk flashplugin chromium nextcloud-client -y
 
 # Media 
-sudo pacman -S --needed lame gthumb vlc cmus audacity soundconverter  -y
+sudo pacman -S --needed lame gthumb vlc cmus audacity soundconverter -y
 
 # Virtualization
 #sudo pacman -S --needed virtualbox virtualbox-host-dkms virtualbox-guest-iso virtualbox-ext-pack -y
