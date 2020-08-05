@@ -25,7 +25,7 @@ sudo pacman -S --needed gnome-tweaks gnome-tweak-tool dconf-editor chrome-gnome-
 sudo pacman -S --needed tor jdk-openjdk transmission-gtk flashplugin chromium nextcloud-client -y
 
 # Media 
-sudo pacman -S --needed lame gthumb vlc cmus audacity soundconverter -y
+sudo pacman -S --needed lame gthumb vlc cmus audacity soundconverter pulseeffects ncmpcpp -y
 
 # Virtualization
 #sudo pacman -S --needed virtualbox virtualbox-host-dkms virtualbox-guest-iso virtualbox-ext-pack -y
