@@ -7,7 +7,7 @@ sudo pacman -Syu
 sudo pacman -S --needed gparted git patch nano htop powertop grub-customizer terminator neofetch reflector os-prober solaar xarchiver nnn -y
 
 # Base WM
-sudo pacman -S --needed nitrogen gtk-chtheme picom -y
+sudo pacman -S --needed nitrogen gtk-chtheme picom stalonetray xorg-xrandr xorg-xsetroot nm-applet blueman -y
 
 # Network
 sudo pacman -S --needed networkmanager dhclient openssh sshfs openvpn networkmanager-openvpn net-tools nmap firejail -y
@@ -38,7 +38,10 @@ sudo pacman -S --needed lame gthumb vlc cmus audacity soundconverter pulseeffect
 #sudo echo "dhcp=dhclient" >> /etc/NetworkManager/conf.d/dhcp-client.conf
 
 # AMD video driver
-sudo pacman -S --needed xf86-video-amdgpu
+#sudo pacman -S --needed xf86-video-amdgpu
+
+#Intel visoe driver
+#sudo pacman -S --needed xf86-video-intel
 
 # Install Yay
 #git clone https://aur.archlinux.org/yay.git
