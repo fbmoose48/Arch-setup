@@ -28,7 +28,8 @@ sudo pacman -S --needed tor jdk-openjdk transmission-gtk flashplugin chromium ne
 sudo pacman -S --needed lame gthumb vlc cmus audacity soundconverter pulseeffects ncmpcpp -y
 
 # Virtualization
-#sudo pacman -S --needed virtualbox virtualbox-host-dkms virtualbox-guest-iso virtualbox-ext-pack -y
+#sudo pacman -S --needed virtualbox virtualbox-host-modules-arch virtualbox-guest-iso virtualbox-guest-utils -y
+#sudo modprobe vboxdrv
 
 # Other tools
 #sudo pacman -S android-tools mpv cmus timeshift dosfstools mstools hdparm tcpdump -y
