@@ -27,6 +27,9 @@ sudo pacman -S --needed tor jdk-openjdk transmission-gtk flashplugin chromium ne
 # Media 
 sudo pacman -S --needed lame gthumb vlc cmus audacity soundconverter pulseeffects ncmpcpp -y
 
+# Fonts
+sudo pacman -S --needed ttf-bitstream-vera ttf-dejavu
+
 # Virtualization
 #sudo pacman -S --needed virtualbox virtualbox-host-modules-arch virtualbox-guest-iso virtualbox-guest-utils -y
 #sudo modprobe vboxdrv
@@ -56,7 +59,7 @@ yay -Syu
 yay -S --needed downgrade pamac-aur inxi tor-browser teamviewer wireshark-git cli-visualizer imagewriter tldr++ -y
 
 # AUR Fonts
-yay -S --needed nerd-fonts-source-code-pro nerd-fonts-liberation-mono lexend-fonts-git libxft-bgra-git -y
+yay -S --needed nerd-fonts-source-code-pro nerd-fonts-liberation-mono lexend-fonts-git libxft-bgra-git ttf-fixedsys-excelsior-linux nerd-fonts-profont-windows -y
 
 # Disable GDM Auto-Suspend (Gnome) When no User is logged in
 sudo -u gdm dbus-launch gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-type 'nothing'
