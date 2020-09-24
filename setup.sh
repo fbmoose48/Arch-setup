@@ -4,7 +4,7 @@
 sudo pacman -Syu
 
 # Base system
-sudo pacman -S --needed gparted git patch nano htop powertop grub-customizer terminator neofetch reflector os-prober solaar xarchiver nnn powerline-fonts -y
+sudo pacman -S --needed gparted git patch nano htop powertop grub-customizer terminator neofetch reflector os-prober solaar xarchiver nnn s-tui -y
 
 # Base WM
 sudo pacman -S --needed nitrogen gtk-chtheme picom stalonetray xorg-xrandr xorg-xsetroot pasystray blueman -y
@@ -28,7 +28,10 @@ sudo pacman -S --needed tor jdk-openjdk transmission-gtk flashplugin chromium ne
 sudo pacman -S --needed lame gthumb vlc cmus audacity soundconverter pulseeffects ncmpcpp -y
 
 # Fonts
-sudo pacman -S --needed ttf-bitstream-vera ttf-dejavu
+sudo pacman -S --needed ttf-bitstream-vera ttf-dejavu powerline-fonts -y
+
+# Laptop
+#sudo pacman -S tlp -y
 
 # Virtualization
 #sudo pacman -S --needed virtualbox virtualbox-host-modules-arch virtualbox-guest-iso virtualbox-guest-utils -y
@@ -60,6 +63,9 @@ yay -S --needed downgrade pamac-aur inxi tor-browser teamviewer wireshark-git cl
 
 # AUR Fonts
 yay -S --needed nerd-fonts-source-code-pro nerd-fonts-liberation-mono lexend-fonts-git libxft-bgra-git ttf-fixedsys-excelsior-linux nerd-fonts-profont-windows -y
+
+# AUR laptop
+#yay -S --needed thinkfan
 
 # Disable GDM Auto-Suspend (Gnome) When no User is logged in
 sudo -u gdm dbus-launch gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-type 'nothing'
