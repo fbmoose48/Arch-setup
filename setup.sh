@@ -4,7 +4,7 @@
 sudo pacman -Syu
 
 # Base system
-sudo pacman -S --needed gparted git patch nano htop powertop grub-customizer terminator neofetch reflector os-prober solaar xarchiver nnn s-tui -y
+sudo pacman -S --needed gparted git patch nano htop powertop grub-customizer terminator neofetch reflector os-prober solaar xarchiver nnn s-tui progress -y
 
 # Base WM
 sudo pacman -S --needed nitrogen gtk-chtheme picom stalonetray xorg-xrandr xorg-xsetroot pasystray blueman -y
