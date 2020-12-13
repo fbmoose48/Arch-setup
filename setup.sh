@@ -19,7 +19,7 @@ sudo pacman -S --needed base-devel hwloc openssl cmake libmicrohttpd numactl msr
 sudo pacman -S --needed python gcc-ada flex bison ncurses wget zlib acpica -y
 
 # Gnome tools
-sudo pacman -S --needed gnome-tweaks gnome-tweak-tool dconf-editor chrome-gnome-shell  -y
+#sudo pacman -S --needed gnome-tweaks gnome-tweak-tool dconf-editor chrome-gnome-shell  -y
 
 # Web
 sudo pacman -S --needed tor jdk-openjdk transmission-gtk flashplugin chromium nextcloud-client -y
@@ -47,7 +47,7 @@ sudo pacman -S --needed ttf-bitstream-vera ttf-dejavu powerline-fonts -y
 # AMD video driver
 #sudo pacman -S --needed xf86-video-amdgpu
 
-#Intel visoe driver
+#Intel vidoe driver
 #sudo pacman -S --needed xf86-video-intel
 
 # Install Yay
@@ -59,7 +59,7 @@ sudo pacman -S --needed ttf-bitstream-vera ttf-dejavu powerline-fonts -y
 yay -Syu
 
 # AUR Software
-yay -S --needed downgrade pamac-aur inxi tor-browser teamviewer wireshark-git cli-visualizer imagewriter tldr++ -y
+yay -S --needed downgrade spacefm inxi tor-browser teamviewer wireshark-git cli-visualizer imagewriter -y
 
 # AUR Fonts
 yay -S --needed nerd-fonts-source-code-pro nerd-fonts-liberation-mono lexend-fonts-git libxft-bgra-git ttf-fixedsys-excelsior-linux nerd-fonts-profont-windows -y
@@ -68,10 +68,10 @@ yay -S --needed nerd-fonts-source-code-pro nerd-fonts-liberation-mono lexend-fon
 #yay -S --needed thinkfan
 
 # Disable GDM Auto-Suspend (Gnome) When no User is logged in
-sudo -u gdm dbus-launch gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-type 'nothing'
+#sudo -u gdm dbus-launch gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-type 'nothing'
 
 # Fix Gnome Minimize/Maximize buttons
-gsettings set org.gnome.desktop.wm.preferences button-layout ':minimize,maximize,close'
+#gsettings set org.gnome.desktop.wm.preferences button-layout ':minimize,maximize,close'
 
 #Enable fstrim
 sudo systemctl enable fstrim.timer
