@@ -7,7 +7,7 @@ sudo pacman -Syu
 sudo pacman -S --needed gparted git patch nano htop powertop grub-customizer terminator neofetch reflector os-prober solaar xarchiver nnn s-tui progress -y
 
 # Base WM
-sudo pacman -S --needed nitrogen gtk-chtheme picom stalonetray xorg-xrandr xorg-xsetroot pasystray blueman -y
+sudo pacman -S --needed nitrogen gtk-chtheme picom lxterminal stalonetray xorg-xrandr xorg-xsetroot pasystray blueman -y
 
 # Network
 sudo pacman -S --needed networkmanager network-manager-applet dhclient openssh sshfs openvpn networkmanager-openvpn net-tools nmap firejail -y
