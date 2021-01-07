@@ -67,6 +67,9 @@ yay -S --needed nerd-fonts-source-code-pro nerd-fonts-liberation-mono lexend-fon
 # AUR laptop
 #yay -S --needed thinkfan
 
+# Add $USER to necessary groups
+sudo usermod -a -G video,lp,lpadmin $USER
+
 # Disable GDM Auto-Suspend (Gnome) When no User is logged in
 #sudo -u gdm dbus-launch gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-type 'nothing'
 
