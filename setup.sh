@@ -45,7 +45,7 @@ sudo pacman -S --needed ttf-bitstream-vera ttf-dejavu powerline-fonts
 #sudo echo "dhcp=dhclient" >> /etc/NetworkManager/conf.d/dhcp-client.conf
 
 # AMD video driver
-#sudo pacman -S --needed xf86-video-amdgpu
+#sudo pacman -S --needed xf86-video-amdgpu mesa-demos
 
 #Intel vidoe driver
 #sudo pacman -S --needed xf86-video-intel
