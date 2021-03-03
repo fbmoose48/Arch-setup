@@ -4,13 +4,16 @@
 sudo pacman -Syu
 
 # Base system
-sudo pacman -S --needed gparted git patch nano htop powertop sysstat grub-customizer terminator neofetch reflector os-prober solaar xarchiver epdfview nnn s-tui progress
+sudo pacman -S --needed git patch nano htop powertop sysstat grub-customizer neofetch reflector os-prober nnn s-tui progress
 
 # Base WM
-sudo pacman -S --needed nitrogen gtk-chtheme picom lxterminal stalonetray xorg-xrandr xorg-xsetroot pasystray blueman
+sudo pacman -S --needed nitrogen gtk-chtheme picom lxterminal stalonetray xorg-xrandr xorg-xsetroot libxft imlib2 pasystray blueman
+
+# Base GUI tools
+sudo pacman -S --needed gparted terminator solaar xarchiver epdfview 
 
 # Network
-sudo pacman -S --needed networkmanager network-manager-applet dhclient openssh sshfs openvpn networkmanager-openvpn net-tools nmap firejail
+sudo pacman -S --needed networkmanager network-manager-applet dhclient openssh sshfs openvpn networkmanager-openvpn net-tools nmap 
 
 # Build tools
 sudo pacman -S --needed base-devel hwloc openssl cmake libmicrohttpd numactl msr-tools geany
@@ -22,13 +25,13 @@ sudo pacman -S --needed base-devel hwloc openssl cmake libmicrohttpd numactl msr
 #sudo pacman -S --needed gnome-tweaks gnome-tweak-tool dconf-editor chrome-gnome-shell
 
 # Web
-#sudo pacman -S --needed firefox thunderbird tor jdk-openjdk transmission-gtk flashplugin chromium nextcloud-client
+#sudo pacman -S --needed firefox thunderbird tor jdk-openjdk transmission-gtk flashplugin chromium nextcloud-client firejail
 
 # Media 
 #sudo pacman -S --needed lame gthumb vlc cmus audacity soundconverter pulseeffects ncmpcpp
 
 # Fonts
-sudo pacman -S --needed ttf-bitstream-vera ttf-dejavu powerline-fonts
+sudo pacman -S --needed ttf-hack ttf-joypixels ttf-bitstream-vera ttf-dejavu powerline-fonts
 
 # Laptop
 #sudo pacman -S --needed tlp
