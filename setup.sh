@@ -64,6 +64,9 @@ sudo pacman -S --needed ttf-hack ttf-joypixels ttf-bitstream-vera ttf-dejavu pow
 # AUR Software
 #yay -S --needed downgrade spacefm inxi tor-browser teamviewer wireshark-git cli-visualizer imagewriter
 
+#AUR AMDGPU-PRO OpenCL drivers
+#yay -S --needed opencl-amd-polaris
+
 # AUR Fonts
 yay -S --needed nerd-fonts-source-code-pro nerd-fonts-liberation-mono lexend-fonts-git libxft-bgra-git ttf-fixedsys-excelsior-linux nerd-fonts-profont-windows
 
