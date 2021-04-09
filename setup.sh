@@ -7,7 +7,7 @@ sudo pacman -Syu
 sudo pacman -S --needed git patch nano htop powertop sysstat grub-customizer neofetch gnome-keyring reflector os-prober nnn s-tui progress
 
 # Base WM
-sudo pacman -S --needed nitrogen gtk-chtheme picom lxterminal stalonetray xorg-xrandr xorg-xsetroot libxft imlib2 pasystray blueman
+sudo pacman -S --needed nitrogen gtk-chtheme picom lxterminal lxappearance stalonetray xorg-xrandr xorg-xsetroot libxft imlib2 pasystray blueman
 
 # Base GUI tools
 sudo pacman -S --needed gparted terminator solaar xarchiver epdfview 
