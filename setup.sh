@@ -4,10 +4,11 @@
 sudo pacman -Syu
 
 # Base system
-sudo pacman -S --needed git patch nano htop powertop sysstat grub-customizer neofetch gnome-keyring reflector os-prober nnn s-tui progress
+sudo pacman -S --needed git patch nano htop powertop sysstat neofetch gnome-keyring reflector os-prober nnn s-tui progress udisks2
 
 # Base WM
-sudo pacman -S --needed nitrogen gtk-chtheme picom lxterminal lxappearance stalonetray xorg-xrandr xorg-xsetroot libxft imlib2 gparted terminator xarchiver
+sudo pacman -S --needed nitrogen gtk-chtheme picom lxterminal lxappearance stalonetray xorg-xrandr xorg-xsetroot libxft imlib2 gparted terminator xarchiver grub-customizer
+yay -S spacefm
 
 # Expanded GUI tools
 #sudo pacman -S --needed pasystray blueman solaar epdfview 
