@@ -34,6 +34,9 @@ sudo pacman -S --needed base-devel hwloc openssl cmake libmicrohttpd numactl msr
 # Fonts
 sudo pacman -S --needed ttf-hack ttf-joypixels ttf-bitstream-vera ttf-dejavu powerline-fonts
 
+# ETH
+#yay -S --needed ethminer opencl-amd
+
 # Laptop
 #sudo pacman -S --needed tlp
 
