@@ -48,8 +48,8 @@ sudo pacman -S --needed ttf-hack ttf-joypixels ttf-bitstream-vera ttf-dejavu pow
 #sudo pacman -S android-tools mpv cmus timeshift dosfstools mstools hdparm tcpdump
 
 # Fix DHCP on NetworkManager
-#sudo echo "[main]" >> /etc/NetworkManager/conf.d/dhcp-client.conf
-#sudo echo "dhcp=dhclient" >> /etc/NetworkManager/conf.d/dhcp-client.conf
+sudo echo "[main]" >> /etc/NetworkManager/conf.d/dhcp-client.conf
+sudo echo "dhcp=dhclient" >> /etc/NetworkManager/conf.d/dhcp-client.conf
 
 # AMD video driver
 #sudo pacman -S --needed xf86-video-amdgpu mesa-demos
