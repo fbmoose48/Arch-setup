@@ -14,7 +14,7 @@ yay -S spacefm
 #sudo pacman -S --needed pasystray blueman solaar epdfview 
 
 # Network
-sudo pacman -S --needed networkmanager network-manager-applet dhclient openssh sshfs openvpn networkmanager-openvpn net-tools nmap 
+sudo pacman -S --needed networkmanager network-manager-applet dhclient openssh sshfs openvpn networkmanager-openvpn net-tools nmap speedtest-cli
 
 # Build tools
 sudo pacman -S --needed base-devel hwloc openssl cmake libmicrohttpd numactl msr-tools geany
@@ -26,10 +26,16 @@ sudo pacman -S --needed base-devel hwloc openssl cmake libmicrohttpd numactl msr
 #sudo pacman -S --needed gnome-tweaks gnome-tweak-tool dconf-editor chrome-gnome-shell
 
 # Web
-#sudo pacman -S --needed firefox thunderbird tor jdk-openjdk transmission-gtk flashplugin chromium nextcloud-client firejail
+sudo pacman -S --needed firefox tor jdk-openjdk transmission-gtk 
+
+# Web expanded
+#sudo pacman -S --needed thunderbird flashplugin chromium nextcloud-client firejail
 
 # Media 
-#sudo pacman -S --needed lame gthumb vlc cmus audacity soundconverter pulseeffects ncmpcpp
+sudo pacman -S --needed lame 
+
+# Media expanded
+#sudo pacman -S --needed gthumb vlc cmus audacity soundconverter pulseeffects ncmpcpp
 
 # Fonts
 sudo pacman -S --needed ttf-hack ttf-joypixels ttf-bitstream-vera ttf-dejavu powerline-fonts
