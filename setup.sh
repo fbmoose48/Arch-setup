@@ -11,10 +11,10 @@ sudo pacman -S --needed nitrogen gtk-chtheme picom lxterminal lxappearance stalo
 yay -S spacefm
 
 # Expanded GUI tools
-#sudo pacman -S --needed pasystray blueman solaar epdfview 
+#sudo pacman -S --needed pasystray blueman solaar epdfview geany
 
 # Network
-sudo pacman -S --needed networkmanager network-manager-applet dhclient openssh sshfs openvpn networkmanager-openvpn net-tools nmap speedtest-cli
+sudo pacman -S --needed networkmanager network-manager-applet dhclient openssh sshfs openvpn networkmanager-openvpn net-tools nmap speedtest-cli nfs-utils
 
 # Build tools
 sudo pacman -S --needed base-devel hwloc openssl cmake libmicrohttpd numactl msr-tools geany
@@ -32,7 +32,7 @@ sudo pacman -S --needed firefox tor jdk-openjdk transmission-gtk
 #sudo pacman -S --needed thunderbird flashplugin chromium nextcloud-client firejail
 
 # Media 
-sudo pacman -S --needed lame 
+sudo pacman -S --needed lame mpv
 
 # Media expanded
 #sudo pacman -S --needed gthumb vlc cmus audacity soundconverter pulseeffects ncmpcpp
