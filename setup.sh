@@ -32,7 +32,7 @@ sudo pacman -S --needed firefox tor jdk-openjdk transmission-gtk
 #sudo pacman -S --needed thunderbird flashplugin chromium nextcloud-client firejail
 
 # Media 
-sudo pacman -S --needed lame mpv
+sudo pacman -S --needed lame mpv pavucontrol
 
 # Media expanded
 #sudo pacman -S --needed gthumb vlc cmus audacity soundconverter pulseeffects ncmpcpp
