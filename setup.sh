@@ -8,19 +8,18 @@ sudo pacman -S --needed git patch nano htop powertop sysstat neofetch gnome-keyr
 
 # Base WM
 sudo pacman -S --needed nitrogen gtk-chtheme picom lxterminal lxappearance stalonetray xorg-xrandr xorg-xsetroot libxft imlib2 gparted terminator xarchiver grub-customizer
-yay -S spacefm
 
 # Expanded GUI tools
 #sudo pacman -S --needed pasystray blueman solaar epdfview geany
 
 # Network
-sudo pacman -S --needed networkmanager network-manager-applet dhclient openssh sshfs openvpn networkmanager-openvpn net-tools nmap speedtest-cli nfs-utils
+sudo pacman -S --needed networkmanager network-manager-applet dhclient openssh sshfs openvpn networkmanager-openvpn net-tools nmap speedtest-cli nfs-utils tcpdump
 
 # Build tools
 sudo pacman -S --needed base-devel hwloc openssl cmake libmicrohttpd numactl msr-tools geany
 
 # File Sytem tools
-sudo pacman -S --needed squashfs-tools f2fs-tools
+#sudo pacman -S --needed squashfs-tools f2fs-tools dosfstools mstools hdparm
 
 # Coreboot
 #sudo pacman -S --needed python gcc-ada flex bison ncurses wget zlib acpica
@@ -54,7 +53,7 @@ sudo pacman -S --needed ttf-hack ttf-joypixels ttf-bitstream-vera ttf-dejavu pow
 #sudo modprobe vboxdrv
 
 # Other tools
-#sudo pacman -S android-tools mpv cmus timeshift dosfstools mstools hdparm tcpdump
+#sudo pacman -S android-tools mpv cmus timeshift
 
 # Fix DHCP on NetworkManager
 sudo echo "[main]" >> /etc/NetworkManager/conf.d/dhcp-client.conf
