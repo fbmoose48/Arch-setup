@@ -4,7 +4,7 @@
 sudo pacman -Syu
 
 # Base system
-sudo pacman -S --needed git patch nano htop powertop sysstat neofetch nnn s-tui progress udisks2
+sudo pacman -S --needed git patch nano htop powertop sysstat neofetch nnn progress udisks2
 
 # Base WM
 #sudo pacman -S --needed nitrogen gtk-chtheme picom lxterminal lxappearance gparted xarchiver 
