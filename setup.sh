@@ -19,6 +19,9 @@ sudo pacman -S --needed networkmanager network-manager-applet dhclient openssh s
 # Build tools
 sudo pacman -S --needed base-devel hwloc openssl cmake libmicrohttpd numactl msr-tools geany
 
+# File Sytem tools
+sudo pacman -S --needed squashfs-tools f2fs-tools
+
 # Coreboot
 #sudo pacman -S --needed python gcc-ada flex bison ncurses wget zlib acpica
 
