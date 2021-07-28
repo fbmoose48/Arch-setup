@@ -39,6 +39,9 @@ sudo pacman -S --needed lame mpv pavucontrol
 # Media expanded
 #sudo pacman -S --needed gthumb vlc cmus audacity soundconverter pulseeffects ncmpcpp
 
+# Audio
+#sudo pacman -S --needed audacity ardour lmms rosegarden
+
 # Fonts
 sudo pacman -S --needed ttf-hack ttf-joypixels ttf-bitstream-vera ttf-dejavu powerline-fonts
 
