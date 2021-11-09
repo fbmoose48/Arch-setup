@@ -10,7 +10,7 @@ sudo pacman -S --needed git patch nano htop powertop sysstat neofetch progress
 sudo pacman -S --needed go base-devel hwloc openssl cmake
 
 # Phosh GUI
-sudo pacman -S --needed gparted xarchiver siglo gnome-calendar-mobile modem-manager-gui pavucontrol
+sudo pacman -S --needed gparted xarchiver siglo gnome-calendar-mobile gnome-weather modem-manager-gui pavucontrol
 
 # Expanded GUI tools
 #sudo pacman -S --needed epdfview geany
