@@ -43,7 +43,7 @@ sudo pacman -S --needed gparted xarchiver siglo gnome-calendar-mobile gnome-weat
 #yay -Syu
 
 # AUR utilities
-yay -S --needed mmsd-tng-git axolotl auther-git cotp
+yay -S --needed mmsd-tng-git axolotl auther-git cotp menulibre
 
 # AUR Software
 #yay -S --needed downgrade inxi tor-browser wireshark-git cli-visualizer spacefm
