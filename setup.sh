@@ -54,6 +54,9 @@ sudo pacman -Rns gnome-software-mobile
 # Add $USER to necessary groups
 #sudo usermod -a -G video,lp,lpadmin $USER
 
+# Disable animations in Phosh
+gsettings set org.gnome.desktop.interface enable-animations false
+
 # Enableme experimental MMS in Chatty
 gsettings set sm.puri.Chatty experimental-features true
 
