@@ -4,7 +4,7 @@
 sudo pacman -Syu
 
 # Base system
-sudo pacman -S --needed git patch nano htop powertop sysstat neofetch gnome-keyring reflector os-prober nnn s-tui progress udisks2 detox
+sudo pacman -S --needed git patch nano htop powertop sysstat neofetch gnome-keyring reflector os-prober nnn s-tui progress udisks2 detox lm_sensors
 
 # Base WM
 sudo pacman -S --needed nitrogen gtk-chtheme picom lxterminal lxappearance stalonetray xorg-xrandr xorg-xsetroot libxft imlib2 gparted terminator xarchiver grub-customizer
@@ -19,7 +19,7 @@ sudo pacman -S --needed networkmanager network-manager-applet dhclient openssh s
 sudo pacman -S --needed base-devel hwloc openssl cmake libmicrohttpd numactl msr-tools geany
 
 # File Sytem tools
-sudo pacman -S --needed squashfs-tools f2fs-tools dosfstools mstools hdparm
+#sudo pacman -S --needed squashfs-tools f2fs-tools dosfstools mstools hdparm
 
 # Coreboot
 #sudo pacman -S --needed python gcc-ada flex bison ncurses wget zlib acpica
@@ -28,13 +28,13 @@ sudo pacman -S --needed squashfs-tools f2fs-tools dosfstools mstools hdparm
 #sudo pacman -S --needed gnome-tweaks gnome-tweak-tool dconf-editor chrome-gnome-shell
 
 # Web
-sudo pacman -S --needed firefox tor jdk-openjdk transmission-gtk 
+#sudo pacman -S --needed firefox tor jdk-openjdk transmission-gtk 
 
 # Web expanded
 #sudo pacman -S --needed thunderbird flashplugin chromium nextcloud-client firejail
 
 # Media 
-sudo pacman -S --needed lame mpv pavucontrol gthumb
+#sudo pacman -S --needed lame mpv pavucontrol gthumb
 
 # Media expanded
 #sudo pacman -S --needed vlc cmus soundconverter pulseeffects ncmpcpp
@@ -56,7 +56,7 @@ sudo pacman -S --needed ttf-hack ttf-joypixels ttf-bitstream-vera ttf-dejavu pow
 #sudo modprobe vboxdrv
 
 # Other tools
-sudo pacman -S --needed android-tools
+#sudo pacman -S --needed android-tools
 
 # Backup
 #sudo pacman -S --needed timeshift
