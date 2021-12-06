@@ -4,13 +4,13 @@
 sudo pacman -Syu
 
 # Base system
-sudo pacman -S --needed git patch nano htop powertop sysstat neofetch progress
+sudo pacman -S --needed git patch nano htop powertop sysstat neofetch progress danctnix-tweaks-app-pinephone danctnix-tweaks-app-phosh
 
 # Build tools
 sudo pacman -S --needed go base-devel hwloc openssl cmake
 
 # Phosh GUI
-sudo pacman -S --needed gparted xarchiver siglo gnome-calendar-mobile gnome-weather modem-manager-gui pavucontrol
+sudo pacman -S --needed gparted xarchiver siglo gnome-calendar-mobile gnome-weather gnome-screenshot modem-manager-gui pavucontrol
 
 # Expanded GUI tools
 #sudo pacman -S --needed epdfview geany
@@ -53,6 +53,10 @@ sudo pacman -Rns gnome-software-mobile
 
 # Add $USER to necessary groups
 #sudo usermod -a -G video,lp,lpadmin $USER
+
+# Spelling
+sudo pacman -S aspell aspell-en
+# go into gedit and select preferences >> spelling >> preferences >> highlight misspelled words
 
 # Disable animations in Phosh
 gsettings set org.gnome.desktop.interface enable-animations false
