@@ -34,19 +34,19 @@ sudo pacman -S --needed gparted xarchiver siglo gnome-calendar-mobile gnome-weat
 #sudo pacman -S android-tools timeshift 
 
 # Install Yay
-#git clone https://aur.archlinux.org/yay.git
-#sudo chown -R alarm:users ./yay
-#cd yay
-#makepkg -si
+git clone https://aur.archlinux.org/yay.git
+sudo chown -R alarm:users ./yay
+cd yay
+makepkg -si
 
 # AUR Update
 #yay -Syu
 
 # AUR utilities
-yay -S --needed mmsd-tng-git axolotl auther-git cotp menulibre
+yay -S --needed mmsd-tng-git axolotl auther-git cotp menulibre downgrade clapper
 
 # AUR Software
-#yay -S --needed downgrade inxi tor-browser wireshark-git cli-visualizer spacefm
+#yay -S --needed inxi tor-browser wireshark-git cli-visualizer spacefm
 
 # Cleanup
 sudo pacman -Rns gnome-software-mobile
@@ -55,7 +55,7 @@ sudo pacman -Rns gnome-software-mobile
 #sudo usermod -a -G video,lp,lpadmin $USER
 
 # Spelling
-sudo pacman -S aspell aspell-en
+sudo pacman -S --needed aspell aspell-en
 # go into gedit and select preferences >> spelling >> preferences >> highlight misspelled words
 
 # Disable animations in Phosh
