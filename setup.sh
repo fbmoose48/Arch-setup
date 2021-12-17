@@ -61,6 +61,11 @@ sudo pacman -S --needed aspell aspell-en
 # Disable animations in Phosh
 gsettings set org.gnome.desktop.interface enable-animations false
 
+# Set "adaptive apps only" to "off"
+gsettings set sm.puri.phosh app-filter-mode '[]'
+# TUrn them back on
+#gsettings set sm.puri.phosh app-filter-mode '["adaptive"]'
+
 # Enableme experimental MMS in Chatty
 gsettings set sm.puri.Chatty experimental-features true
 
