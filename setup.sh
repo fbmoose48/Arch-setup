@@ -109,3 +109,6 @@ sudo systemctl start fstrim.timer
 
 # Poly Dark GRUB theme
 wget -O - https://github.com/shvchk/poly-dark/raw/master/install.sh | bash 
+
+# nanorc
+curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh -l
