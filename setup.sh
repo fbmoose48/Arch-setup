@@ -10,7 +10,7 @@ sudo pacman -S --needed git patch nano htop powertop sysstat neofetch gnome-keyr
 sudo pacman -S --needed nitrogen gtk-chtheme picom lxterminal lxappearance stalonetray xorg-xrandr xorg-xsetroot libxft imlib2 gparted terminator xarchiver grub-customizer
 
 # Expanded GUI tools
-sudo pacman -S --needed pasystray blueman solaar epdfview geany
+sudo pacman -S --needed pasystray blueman solaar epdfview geany gnome-multi-writer
 
 # Network
 sudo pacman -S --needed networkmanager network-manager-applet dhclient openssh sshfs openvpn networkmanager-openvpn net-tools nmap speedtest-cli nfs-utils tcpdump
