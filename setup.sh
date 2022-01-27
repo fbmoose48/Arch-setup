@@ -4,13 +4,13 @@
 sudo pacman -Syu
 
 # Base system
-sudo pacman -S --needed git minicom patch nano htop powertop sysstat neofetch progress danctnix-tweaks-app-pinephone danctnix-tweaks-app-phosh
+sudo pacman -S --needed git minicom patch nano htop powertop sysstat neofetch progress danctnix-tweaks-app-pinephone danctnix-tweaks-app-phosh android-tools
 
 # Build tools
 sudo pacman -S --needed go base-devel hwloc openssl cmake
 
 # Phosh GUI
-sudo pacman -S --needed gparted xarchiver siglo gnome-calendar-mobile gnome-weather gnome-screenshot modem-manager-gui pavucontrol
+sudo pacman -S --needed gparted xarchiver siglo gnome-calendar-mobile gnome-weather gnome-screenshot modem-manager-gui pavucontrol gnome-firmware
 
 # Expanded GUI tools
 #sudo pacman -S --needed epdfview geany
@@ -43,7 +43,7 @@ makepkg -si
 #yay -Syu
 
 # AUR utilities
-yay -S --needed mmsd-tng-git axolotl auther-git cotp menulibre downgrade clapper
+yay -S --needed mmsd-tng-git axolotl auther-git cotp menulibre downgrade clapper atinout
 
 # AUR Software
 #yay -S --needed inxi tor-browser wireshark-git cli-visualizer spacefm
