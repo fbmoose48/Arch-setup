@@ -4,13 +4,13 @@
 sudo pacman -Syu
 
 # Base system
-sudo pacman -S --needed git patch nano htop powertop sysstat neofetch gnome-keyring reflector os-prober nnn s-tui progress udisks2 detox lm_sensors
+sudo pacman -S --needed git patch nano htop powertop sysstat neofetch gnome-keyring reflector os-prober s-tui progress udisks2 detox lm_sensors
 
 # Base WM
 sudo pacman -S --needed nitrogen gtk-chtheme picom lxterminal lxappearance stalonetray xorg-xrandr xorg-xsetroot libxft imlib2 gparted terminator xarchiver grub-customizer
 
 # Expanded GUI tools
-sudo pacman -S --needed pasystray blueman solaar epdfview geany gnome-multi-writer
+#sudo pacman -S --needed pasystray blueman epdfview geany gnome-multi-writer
 
 # Network
 sudo pacman -S --needed networkmanager network-manager-applet dhclient openssh sshfs openvpn networkmanager-openvpn net-tools nmap speedtest-cli nfs-utils tcpdump
@@ -19,7 +19,7 @@ sudo pacman -S --needed networkmanager network-manager-applet dhclient openssh s
 sudo pacman -S --needed base-devel hwloc openssl cmake libmicrohttpd numactl msr-tools geany
 
 # File Sytem tools
-#sudo pacman -S --needed squashfs-tools f2fs-tools dosfstools mstools hdparm
+#sudo pacman -S --needed squashfs-tools f2fs-tools dosfstools mstools hdparm nnn
 
 # Coreboot
 #sudo pacman -S --needed python gcc-ada flex bison ncurses wget zlib acpica
@@ -83,16 +83,17 @@ sudo echo "dhcp=dhclient" >> /etc/NetworkManager/conf.d/dhcp-client.conf
 #yay -Syu
 
 # AUR utilities
-yay -S --needed spacefm imagewriter
+yay -S --needed spacefm
 
 # AUR Software
-#yay -S --needed downgrade inxi tor-browser teamviewer wireshark-git cli-visualizer 
+#yay -S --needed downgrade inxi tor-browser teamviewer wireshark-git cli-visualizer imagewriter
 
 #AUR AMDGPU-PRO OpenCL drivers
 #yay -S --needed opencl-amd-polaris
 
 # AUR Fonts
-yay -S --needed nerd-fonts-source-code-pro nerd-fonts-liberation-mono lexend-fonts-git libxft-bgra-git ttf-fixedsys-excelsior-linux nerd-fonts-profont-windows
+yay -S --needed nerd-fonts-source-code-pro libxft-bgra-git
+#yay -S --needed nerd-fonts-liberation-mono lexend-fonts-git ttf-fixedsys-excelsior-linux nerd-fonts-profont-windows
 
 # AUR laptop
 #yay -S --needed thinkfan
