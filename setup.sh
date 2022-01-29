@@ -83,10 +83,10 @@ sudo echo "dhcp=dhclient" >> /etc/NetworkManager/conf.d/dhcp-client.conf
 #yay -Syu
 
 # AUR utilities
-yay -S --needed spacefm
+yay -S --needed spacefm downgrade
 
 # AUR Software
-#yay -S --needed downgrade inxi tor-browser teamviewer wireshark-git cli-visualizer imagewriter
+#yay -S --needed inxi tor-browser teamviewer wireshark-git cli-visualizer imagewriter
 
 #AUR AMDGPU-PRO OpenCL drivers
 #yay -S --needed opencl-amd-polaris
