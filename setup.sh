@@ -48,6 +48,10 @@ sudo pacman -S --needed ttf-hack ttf-joypixels ttf-bitstream-vera ttf-dejavu pow
 # ETH
 #yay -S --needed ethminer opencl-amd
 
+# Games
+#sudo pacman -S --needed wit
+#yay -S --needed wiibafu customizemii
+
 # Laptop
 #sudo pacman -S --needed tlp
 
