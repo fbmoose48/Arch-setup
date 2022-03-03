@@ -31,7 +31,7 @@ sudo pacman -S --needed base-devel hwloc openssl cmake libmicrohttpd numactl msr
 #sudo pacman -S --needed firefox tor jdk-openjdk transmission-gtk 
 
 # Web expanded
-#sudo pacman -S --needed thunderbird flashplugin chromium nextcloud-client firejail
+#sudo pacman -S --needed thunderbird flashplugin chromium nextcloud-client firejail transmission-remote-gtk
 
 # Media 
 #sudo pacman -S --needed lame mpv pavucontrol gthumb
