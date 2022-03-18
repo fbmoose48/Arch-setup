@@ -4,7 +4,7 @@
 sudo pacman -Syu
 
 # Base system
-sudo pacman -S --needed git minicom patch nano htop powertop sysstat neofetch progress danctnix-tweaks-app-pinephone danctnix-tweaks-app-phosh android-tools
+sudo pacman -S --needed git minicom usbutils patch nano htop powertop sysstat neofetch progress danctnix-tweaks-app-pinephone danctnix-tweaks-app-phosh android-tools
 
 # Build tools
 sudo pacman -S --needed go base-devel hwloc openssl cmake
