@@ -4,7 +4,7 @@
 sudo pacman -Syu
 
 # Base system
-sudo pacman -S --needed git minicom usbutils patch nano htop powertop sysstat neofetch progress danctnix-tweaks-app-pinephone danctnix-tweaks-app-phosh android-tools
+sudo pacman -S --needed git minicom mmsd-tng usbutils patch nano htop powertop sysstat neofetch progress danctnix-tweaks-app-pinephone danctnix-tweaks-app-phosh android-tools
 
 # Build tools
 sudo pacman -S --needed go base-devel hwloc openssl cmake
@@ -43,10 +43,10 @@ makepkg -si
 #yay -Syu
 
 # AUR utilities
-yay -S --needed mmsd-tng-git axolotl auther-git cotp menulibre downgrade clapper atinout
+yay -S --needed axolotl menulibre downgrade atinout
 
 # AUR Software
-#yay -S --needed inxi tor-browser wireshark-git cli-visualizer spacefm
+#yay -S --needed auther-git cotp clapper inxi tor-browser wireshark-git cli-visualizer spacefm
 
 # Cleanup
 sudo pacman -Rns gnome-software-mobile
