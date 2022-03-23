@@ -58,6 +58,7 @@ sudo pacman -S --needed ttf-hack ttf-joypixels ttf-bitstream-vera ttf-dejavu pow
 # Virtualization
 #KVM/QEMU
 #sudo pacman -S --needed libvirt qemu virt-manager dnsmasq
+#sudo usermod -a -G libvirt,kvm $USER
 #VirtualBox
 #sudo pacman -S --needed virtualbox virtualbox-host-modules-arch virtualbox-guest-iso virtualbox-guest-utils
 #sudo modprobe vboxdrv
