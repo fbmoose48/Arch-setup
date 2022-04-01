@@ -43,7 +43,7 @@ makepkg -si
 #yay -Syu
 
 # AUR utilities
-yay -S --needed axolotl menulibre downgrade atinout
+yay -S --needed axolotl menulibre downgrade atinout phosh-antispam
 
 # AUR Software
 #yay -S --needed auther-git cotp clapper inxi tor-browser wireshark-git cli-visualizer spacefm
