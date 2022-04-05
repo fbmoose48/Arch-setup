@@ -4,7 +4,10 @@
 sudo pacman -Syu
 
 # Base system
-sudo pacman -S --needed git patch nano htop powertop sysstat neofetch w3m gnome-keyring reflector os-prober s-tui progress udisks2 detox lm_sensors
+sudo pacman -S --needed git patch gnome-keyring reflector os-prober openssh sshfs nfs-utils 
+
+# Base CLI tools
+sudo pacman -S --needed nano htop powertop sysstat neofetch w3m s-tui progress udisks2 detox lm_sensors
 
 # Base WM
 sudo pacman -S --needed nitrogen gtk-chtheme picom lxterminal lxappearance stalonetray xorg-xrandr xorg-xsetroot libxft imlib2 gparted terminator xarchiver grub-customizer
@@ -13,7 +16,7 @@ sudo pacman -S --needed nitrogen gtk-chtheme picom lxterminal lxappearance stalo
 #sudo pacman -S --needed pasystray blueman epdfview geany gnome-multi-writer
 
 # Network
-sudo pacman -S --needed networkmanager network-manager-applet dhclient openssh sshfs openvpn networkmanager-openvpn net-tools nmap speedtest-cli nfs-utils tcpdump
+sudo pacman -S --needed networkmanager network-manager-applet dhclient openvpn networkmanager-openvpn net-tools nmap speedtest-cli tcpdump
 
 # Build tools
 sudo pacman -S --needed base-devel hwloc openssl cmake libmicrohttpd numactl msr-tools geany
