@@ -4,7 +4,10 @@
 sudo pacman -Syu
 
 # Base system
-sudo pacman -S --needed git minicom mmsd-tng usbutils patch nano htop powertop sysstat neofetch progress danctnix-tweaks-app-pinephone danctnix-tweaks-app-phosh android-tools
+sudo pacman -S --needed git minicom mmsd-tng usbutils patch danctnix-tweaks-app-pinephone danctnix-tweaks-app-phosh
+
+# Base CLI Tools
+sudo pacman -S --needed nano htop powertop sysstat neofetch progress android-tools
 
 # Build tools
 sudo pacman -S --needed go base-devel hwloc openssl cmake
@@ -13,7 +16,7 @@ sudo pacman -S --needed go base-devel hwloc openssl cmake
 sudo pacman -S --needed gparted xarchiver siglo gnome-calendar-mobile gnome-weather gnome-screenshot modem-manager-gui pavucontrol gnome-firmware
 
 # Expanded GUI tools
-#sudo pacman -S --needed epdfview geany
+#sudo pacman -S --needed epdfview geany waydroid waydroid-img
 
 # Network
 #sudo pacman -S --needed net-tools nmap speedtest-cli nfs-utils tcpdump
