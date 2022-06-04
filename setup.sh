@@ -36,6 +36,10 @@ sudo pacman -S --needed gparted xarchiver siglo gnome-calendar-mobile gnome-weat
 # Other tools
 #sudo pacman -S android-tools timeshift 
 
+#MMS
+systemctl --user enable mmsd-tng
+systemctl --user start mmsd-tng
+
 # Install Yay
 git clone https://aur.archlinux.org/yay.git
 sudo chown -R alarm:users ./yay
