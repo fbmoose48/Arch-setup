@@ -4,7 +4,7 @@
 sudo pacman -Syu
 
 # Base system
-sudo pacman -S --needed git minicom mmsd-tng usbutils patch danctnix-tweaks-app-pinephone danctnix-tweaks-app-phosh
+sudo pacman -S --needed git minicom mmsd-tng usbutils danctnix-tweaks-app-pinephone danctnix-tweaks-app-phosh
 
 # Base CLI Tools
 sudo pacman -S --needed nano htop powertop sysstat neofetch progress android-tools
@@ -13,7 +13,7 @@ sudo pacman -S --needed nano htop powertop sysstat neofetch progress android-too
 sudo pacman -S --needed go base-devel hwloc openssl cmake
 
 # Phosh GUI
-sudo pacman -S --needed gparted xarchiver siglo gnome-calendar-mobile gnome-weather gnome-screenshot modem-manager-gui pavucontrol gnome-firmware
+sudo pacman -S --needed gparted xarchiver siglo gnome-calendar-mobile gnome-weather gnome-screenshot modem-manager-gui pavucontrol gnome-firmware evolution
 
 # Expanded GUI tools
 #sudo pacman -S --needed epdfview geany waydroid waydroid-img
@@ -46,10 +46,10 @@ makepkg -si
 #yay -Syu
 
 # AUR utilities
-yay -S --needed axolotl menulibre downgrade atinout phosh-antispam
+yay -S --needed menulibre downgrade atinout phosh-antispam
 
 # AUR Software
-#yay -S --needed auther-git cotp clapper inxi tor-browser wireshark-git cli-visualizer spacefm
+#yay -S --needed auther-git cotp clapper inxi tor-browser wireshark-git cli-visualizer spacefm axolotl
 
 # Cleanup
 sudo pacman -Rns gnome-software-mobile
