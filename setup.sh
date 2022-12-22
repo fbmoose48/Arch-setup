@@ -43,7 +43,7 @@ sudo pacman -S --needed base-devel hwloc openssl cmake libmicrohttpd numactl msr
 #sudo pacman -S --needed vlc cmus soundconverter pulseeffects ncmpcpp
 
 # Audio
-#sudo pacman -S --needed audacity ardour lmms rosegarden mixxxer
+#sudo pacman -S --needed audacity ardour lmms rosegarden mixxx
 
 # Fonts
 sudo pacman -S --needed ttf-hack ttf-joypixels ttf-bitstream-vera ttf-dejavu powerline-fonts
