@@ -99,8 +99,8 @@ yay -S --needed spacefm downgrade
 #AUR AMDGPU-PRO OpenCL drivers
 #yay -S --needed opencl-amd-polaris
 
-# AUR Fonts
-yay -S --needed nerd-fonts-source-code-pro libxft-bgra-git
+# AUR Fonts (deprecated)
+#yay -S --needed nerd-fonts-source-code-pro libxft-bgra-git
 #yay -S --needed nerd-fonts-liberation-mono lexend-fonts-git ttf-fixedsys-excelsior-linux nerd-fonts-profont-windows
 
 # AUR laptop
