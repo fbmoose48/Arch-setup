@@ -9,17 +9,11 @@ sudo pacman -S --needed git patch gnome-keyring reflector os-prober openssh sshf
 # Base CLI tools
 sudo pacman -S --needed nano htop powertop sysstat neofetch w3m s-tui progress udisks2 detox lm_sensors tmux
 
-# Base WM
-sudo pacman -S --needed nitrogen gtk-chtheme picom lxterminal lxappearance stalonetray xorg-xrandr xorg-xsetroot libxft imlib2 gparted terminator xarchiver grub-customizer
-
-# Expanded GUI tools
-#sudo pacman -S --needed pasystray blueman epdfview geany gnome-multi-writer
-
 # Network
-sudo pacman -S --needed networkmanager network-manager-applet dhclient openvpn networkmanager-openvpn net-tools nmap speedtest-cli tcpdump
+sudo pacman -S --needed networkmanager dhclient openvpn networkmanager-openvpn net-tools nmap speedtest-cli tcpdump
 
 # Build tools
-sudo pacman -S --needed base-devel hwloc openssl cmake libmicrohttpd numactl msr-tools geany
+sudo pacman -S --needed base-devel hwloc openssl cmake libmicrohttpd numactl msr-tools
 
 # File Sytem tools
 #sudo pacman -S --needed squashfs-tools f2fs-tools dosfstools mstools hdparm nnn
@@ -27,8 +21,17 @@ sudo pacman -S --needed base-devel hwloc openssl cmake libmicrohttpd numactl msr
 # Coreboot
 #sudo pacman -S --needed python gcc-ada flex bison ncurses wget zlib acpica
 
+# Base WM
+sudo pacman -S --needed nitrogen gtk-chtheme picom lxterminal lxappearance stalonetray xorg-xrandr xorg-xsetroot libxft imlib2 gparted terminator xarchiver grub-customizer epdfview geany 
+
+# AMD video driver
+#sudo pacman -S --needed xf86-video-amdgpu
+
+#Intel video driver
+#sudo pacman -S --needed xf86-video-intel
+
 # Gnome tools
-#sudo pacman -S --needed gnome-tweaks gnome-tweak-tool dconf-editor chrome-gnome-shell
+#sudo pacman -S --needed gnome-tweaks gnome-tweak-tool dconf-editor chrome-gnome-shell gnome-multi-writer
 
 # Web
 #sudo pacman -S --needed firefox tor jdk-openjdk transmission-gtk 
@@ -46,12 +49,9 @@ sudo pacman -S --needed base-devel hwloc openssl cmake libmicrohttpd numactl msr
 #sudo pacman -S --needed audacity ardour lmms rosegarden mixxx
 
 # Fonts
-sudo pacman -S --needed ttf-hack ttf-joypixels ttf-bitstream-vera ttf-dejavu powerline-fonts
+sudo pacman -S --needed ttf-hack ttf-joypixels ttf-sourcecodepro-nerd ttf-bitstream-vera ttf-dejavu powerline-fonts
 
-# ETH
-#yay -S --needed ethminer opencl-amd
-
-# Games
+# Wii
 #sudo pacman -S --needed wit
 #yay -S --needed wiibafu customizemii
 
@@ -75,12 +75,6 @@ sudo pacman -S --needed ttf-hack ttf-joypixels ttf-bitstream-vera ttf-dejavu pow
 # Fix DHCP on NetworkManager
 sudo echo "[main]" >> /etc/NetworkManager/conf.d/dhcp-client.conf
 sudo echo "dhcp=dhclient" >> /etc/NetworkManager/conf.d/dhcp-client.conf
-
-# AMD video driver
-#sudo pacman -S --needed xf86-video-amdgpu mesa-demos
-
-#Intel vidoe driver
-#sudo pacman -S --needed xf86-video-intel
 
 # Install Yay
 #git clone https://aur.archlinux.org/yay.git
