@@ -30,9 +30,6 @@ sudo pacman -S --needed nitrogen gtk-chtheme picom lxterminal lxappearance stalo
 #Intel video driver
 #sudo pacman -S --needed xf86-video-intel
 
-# Gnome tools
-#sudo pacman -S --needed gnome-tweaks gnome-tweak-tool dconf-editor chrome-gnome-shell gnome-multi-writer
-
 # Web
 #sudo pacman -S --needed firefox tor jdk-openjdk transmission-gtk 
 
@@ -40,16 +37,19 @@ sudo pacman -S --needed nitrogen gtk-chtheme picom lxterminal lxappearance stalo
 #sudo pacman -S --needed thunderbird flashplugin chromium nextcloud-client firejail transmission-remote-gtk
 
 # Media 
-#sudo pacman -S --needed lame mpv pavucontrol gthumb
+#sudo pacman -S --needed lame mpv pragha gthumb
 
 # Media expanded
-#sudo pacman -S --needed vlc cmus soundconverter pulseeffects ncmpcpp
+#sudo pacman -S --needed vlc cmus soundconverter pavucontrol pulseeffects ncmpcpp
 
 # Audio
 #sudo pacman -S --needed audacity ardour lmms rosegarden mixxx
 
 # Fonts
 sudo pacman -S --needed ttf-hack ttf-joypixels ttf-sourcecodepro-nerd ttf-bitstream-vera ttf-dejavu powerline-fonts
+
+# Gnome tools
+#sudo pacman -S --needed gnome-tweaks gnome-tweak-tool dconf-editor chrome-gnome-shell gnome-multi-writer
 
 # Wii
 #sudo pacman -S --needed wit
