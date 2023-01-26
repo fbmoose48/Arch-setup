@@ -31,10 +31,10 @@ sudo pacman -S --needed nitrogen gtk-chtheme picom lxterminal lxappearance stalo
 #sudo pacman -S --needed xf86-video-intel
 
 # Web
-#sudo pacman -S --needed firefox tor jdk-openjdk transmission-gtk 
+sudo pacman -S --needed firefox transmission-gtk 
 
 # Web expanded
-#sudo pacman -S --needed thunderbird flashplugin chromium nextcloud-client firejail transmission-remote-gtk
+#sudo pacman -S --needed thunderbird flashplugin chromium nextcloud-client firejail transmission-remote-gtk tor jdk-openjdk
 
 # Media 
 #sudo pacman -S --needed lame mpv pragha gthumb
