@@ -58,6 +58,9 @@ sudo pacman -S --needed ttf-hack ttf-joypixels ttf-sourcecodepro-nerd ttf-bitstr
 # Laptop
 #sudo pacman -S --needed tlp
 
+# RDP
+#sudo pacman -S --needed remmina freerdp
+
 # Virtualization
 #KVM/QEMU
 #sudo pacman -S --needed libvirt qemu virt-manager dnsmasq
