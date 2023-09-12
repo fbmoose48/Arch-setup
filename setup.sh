@@ -22,7 +22,7 @@ sudo pacman -S --needed base-devel hwloc openssl cmake libmicrohttpd numactl msr
 #sudo pacman -S --needed python gcc-ada flex bison ncurses wget zlib acpica
 
 # Base WM
-sudo pacman -S --needed nitrogen gtk-chtheme picom lxterminal lxappearance stalonetray xorg-xrandr xorg-xsetroot libxft imlib2 gparted terminator xarchiver grub-customizer epdfview geany 
+sudo pacman -S --needed nitrogen gtk-chtheme picom lxterminal lxappearance stalonetray xorg-xrandr xorg-xsetroot libxft imlib2 gparted terminator xarchiver grub-customizer geany 
 
 # AMD video driver
 #sudo pacman -S --needed xf86-video-amdgpu
@@ -34,13 +34,16 @@ sudo pacman -S --needed nitrogen gtk-chtheme picom lxterminal lxappearance stalo
 sudo pacman -S --needed firefox transmission-gtk 
 
 # Web expanded
-sudo pacman -S --needed thunderbird flashplugin chromium nextcloud-client firejail transmission-remote-gtk tor jdk-openjdk
+#sudo pacman -S --needed thunderbird chromium nextcloud-client transmission-remote-gtk tor jdk-openjdk
 
 # Media 
 sudo pacman -S --needed lame mpv pragha gthumb
 
 # Media expanded
 #sudo pacman -S --needed vlc cmus soundconverter pavucontrol pulseeffects ncmpcpp
+
+#3D Print
+#sudo pacman -S --needed prusa-slicer freecad
 
 # Audio
 #sudo pacman -S --needed audacity ardour lmms rosegarden mixxx
@@ -94,7 +97,7 @@ yay -S --needed spacefm downgrade
 #yay -S --needed inxi tor-browser imagewriter usbimager
 
 #AUR Software expanded
-teamviewer wireshark-git cli-visualizer
+#yay -S --needed teamviewer wireshark-git cli-visualizer
 
 #AUR AMDGPU-PRO OpenCL drivers
 #yay -S --needed opencl-amd-polaris
