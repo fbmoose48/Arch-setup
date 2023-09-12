@@ -34,10 +34,10 @@ sudo pacman -S --needed nitrogen gtk-chtheme picom lxterminal lxappearance stalo
 sudo pacman -S --needed firefox transmission-gtk 
 
 # Web expanded
-#sudo pacman -S --needed thunderbird flashplugin chromium nextcloud-client firejail transmission-remote-gtk tor jdk-openjdk
+sudo pacman -S --needed thunderbird flashplugin chromium nextcloud-client firejail transmission-remote-gtk tor jdk-openjdk
 
 # Media 
-#sudo pacman -S --needed lame mpv pragha gthumb
+sudo pacman -S --needed lame mpv pragha gthumb
 
 # Media expanded
 #sudo pacman -S --needed vlc cmus soundconverter pavucontrol pulseeffects ncmpcpp
@@ -59,18 +59,18 @@ sudo pacman -S --needed ttf-hack ttf-joypixels ttf-sourcecodepro-nerd ttf-bitstr
 #sudo pacman -S --needed tlp
 
 # RDP
-#sudo pacman -S --needed remmina freerdp
+sudo pacman -S --needed remmina freerdp
 
 # Virtualization
 #KVM/QEMU
-#sudo pacman -S --needed libvirt qemu virt-manager dnsmasq
-#sudo usermod -a -G libvirt,kvm $USER
+sudo pacman -S --needed libvirt qemu virt-manager dnsmasq
+sudo usermod -a -G libvirt,kvm $USER
 #VirtualBox
 #sudo pacman -S --needed virtualbox virtualbox-host-modules-arch virtualbox-guest-iso virtualbox-guest-utils
 #sudo modprobe vboxdrv
 
 # Other tools
-#sudo pacman -S --needed android-tools
+sudo pacman -S --needed android-tools
 
 # Backup
 #sudo pacman -S --needed timeshift
@@ -91,7 +91,10 @@ sudo echo "dhcp=dhclient" >> /etc/NetworkManager/conf.d/dhcp-client.conf
 yay -S --needed spacefm downgrade
 
 # AUR Software
-#yay -S --needed inxi tor-browser teamviewer wireshark-git cli-visualizer imagewriter usbimager
+#yay -S --needed inxi tor-browser imagewriter usbimager
+
+#AUR Software expanded
+teamviewer wireshark-git cli-visualizer
 
 #AUR AMDGPU-PRO OpenCL drivers
 #yay -S --needed opencl-amd-polaris
@@ -117,7 +120,7 @@ sudo systemctl enable fstrim.timer
 sudo systemctl start fstrim.timer
 
 # Poly Dark GRUB theme
-wget -O - https://github.com/shvchk/poly-dark/raw/master/install.sh | bash 
+#wget -O - https://github.com/shvchk/poly-dark/raw/master/install.sh | bash 
 
 # nanorc
 curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh -l
