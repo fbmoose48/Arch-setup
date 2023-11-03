@@ -7,7 +7,7 @@ sudo pacman -Syu
 sudo pacman -S --needed git patch gnome-keyring reflector os-prober openssh sshfs nfs-utils 
 
 # Base CLI tools
-sudo pacman -S --needed nano htop powertop sysstat neofetch w3m s-tui progress udisks2 detox lm_sensors tmux
+sudo pacman -S --needed nano htop powertop sysstat neofetch w3m s-tui progress udisks2 detox lm_sensors tmux memtester
 
 # Network
 sudo pacman -S --needed networkmanager dhclient openvpn networkmanager-openvpn net-tools nmap speedtest-cli tcpdump
