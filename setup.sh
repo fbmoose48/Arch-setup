@@ -91,7 +91,7 @@ sudo echo "dhcp=dhclient" >> /etc/NetworkManager/conf.d/dhcp-client.conf
 #yay -Syu
 
 # AUR utilities
-yay -S --needed spacefm downgrade
+yay -S --needed spacefm downgrade xrestop
 
 # AUR Software
 #yay -S --needed inxi tor-browser imagewriter usbimager
