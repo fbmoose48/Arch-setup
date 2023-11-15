@@ -40,7 +40,7 @@ sudo pacman -S --needed firefox transmission-gtk
 sudo pacman -S --needed lame mpv pragha gthumb
 
 # Media expanded
-#sudo pacman -S --needed vlc cmus soundconverter pavucontrol pulseeffects ncmpcpp
+#sudo pacman -S --needed vlc cmus soundconverter pavucontrol pulseeffects ncmpcpp mediainfo-gui
 
 #3D Print
 #sudo pacman -S --needed prusa-slicer freecad
