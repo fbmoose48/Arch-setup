@@ -62,7 +62,7 @@ sudo pacman -S --needed ttf-hack ttf-joypixels ttf-sourcecodepro-nerd ttf-bitstr
 #sudo pacman -S --needed tlp
 
 # RDP
-sudo pacman -S --needed remmina freerdp
+#sudo pacman -S --needed remmina freerdp
 
 # Virtualization
 #KVM/QEMU
@@ -98,6 +98,9 @@ yay -S --needed spacefm downgrade xrestop
 
 #AUR Software expanded
 #yay -S --needed teamviewer wireshark-git cli-visualizer
+
+#AUR printers
+#yay -S --needed cnijfilter2 ufrii-print
 
 #AUR AMDGPU-PRO OpenCL drivers
 #yay -S --needed opencl-amd-polaris
