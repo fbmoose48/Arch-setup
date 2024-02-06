@@ -100,7 +100,7 @@ yay -S --needed spacefm downgrade xrestop
 #yay -S --needed teamviewer wireshark-git cli-visualizer
 
 #AUR printers
-#yay -S --needed cnijfilter2 ufrii-print
+#yay -S --needed cnijfilter2 scangearmp2 ufrii-print
 
 #AUR AMDGPU-PRO OpenCL drivers
 #yay -S --needed opencl-amd-polaris
