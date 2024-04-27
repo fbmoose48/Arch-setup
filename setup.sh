@@ -13,7 +13,7 @@ sudo pacman -S --needed nano htop powertop sysstat neofetch w3m s-tui progress u
 sudo pacman -S --needed networkmanager dhclient openvpn networkmanager-openvpn net-tools nmap speedtest-cli tcpdump
 
 # Build tools
-sudo pacman -S --needed base-devel hwloc openssl cmake libmicrohttpd numactl msr-tools
+sudo pacman -S --needed base-devel hwloc openssl cmake libmicrohttpd numactl msr-tools arm-none-eabi-gcc
 
 # File Sytem tools
 #sudo pacman -S --needed squashfs-tools f2fs-tools dosfstools mstools hdparm nnn
