@@ -82,6 +82,12 @@ sudo pacman -S --needed android-tools
 sudo echo "[main]" >> /etc/NetworkManager/conf.d/dhcp-client.conf
 sudo echo "dhcp=dhclient" >> /etc/NetworkManager/conf.d/dhcp-client.conf
 
+# Setup systemd-timesyncd
+sudo echo "NTP=0.arch.pool.ntp.org 1.arch.pool.ntp.org 2.arch.pool.ntp.org 3.arch.pool.ntp.org" >> /etc/systemd/timesyncd.conf
+sudo echo "dFallbackNTP=0.pool.ntp.org 1.pool.ntp.org 0.fr.pool.ntp.org" >> /etc/systemd/timesyncd.conf
+sudo timedatectl set-ntp true
+sudo hwclock --systohc
+
 # Install Yay
 #git clone https://aur.archlinux.org/yay.git
 #cd yay
