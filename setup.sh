@@ -88,6 +88,12 @@ sudo echo "FallbackNTP=0.pool.ntp.org 1.pool.ntp.org 0.fr.pool.ntp.org" >> /etc/
 sudo timedatectl set-ntp true
 sudo hwclock --systohc
 
+# Fix GRUB OS-prober
+sudo echo "GRUB_DISABLE_OS_PROBER=false" >> /etc/default/grub
+
+# Detect additional kernels
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+
 # Install Yay
 #git clone https://aur.archlinux.org/yay.git
 #cd yay
