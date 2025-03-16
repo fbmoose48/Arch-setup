@@ -37,7 +37,7 @@ sudo pacman -S --needed firefox transmission-gtk
 #sudo pacman -S --needed thunderbird chromium nextcloud-client transmission-remote-gtk tor jdk-openjdk
 
 # Media 
-sudo pacman -S --needed lame mpv pragha gthumb
+sudo pacman -S --needed lame mpv pragha gthumb scrot
 
 # Media expanded
 #sudo pacman -S --needed vlc cmus soundconverter pavucontrol pulseeffects ncmpcpp mediainfo-gui
